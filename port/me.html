@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 text-gray-900">
+    
+    <nav class="bg-white shadow">
+        <div class="container mx-auto p-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold">My Portfolio</h1>
+            <div class="space-x-4">
+                <a href="#about" class="hover:underline">About</a>
+                <a href="#portfolio" class="hover:underline">Portfolio</a>
+                <a href="#contact" class="hover:underline">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-blue-500 text-white text-center py-20">
+        <h2 class="text-4xl font-bold">Welcome to My Portfolio</h2>
+        <p class="mt-4 text-lg">Explore my work and get to know me</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center">About Me</h2>
+            <p class="mt-4 text-center">I am a web developer with a passion for creating amazing experiences...</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="bg-gray-50 py-16">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center">My Work</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-8">
+                <!-- Add your portfolio items here -->
+                <div class="bg-white p-4 shadow">
+                    <img src="https://via.placeholder.com/300" alt="Project 1" class="w-full">
+                    <h3 class="mt-4 text-xl font-bold">Project 1</h3>
+                    <p class="mt-2">Description of the project...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold">Contact Me</h2>
+            <p class="mt-4">Email: example@example.com</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-4 text-center">
+        © 2024 My Portfolio
+    </footer>
+</body>
+
+</html>
